@@ -54,15 +54,15 @@ body {
 }
 .answer {
     width:100%;
-    min-height:74px;
+    min-height:60px;
     border:0;
     border-bottom:1px dashed rgba(80,80,80,.35);
     background:transparent;
     display:flex;
     align-items:center;
-    gap:34px;
-    padding:9px 28px;
-    font-size:clamp(19px,2vw,27px);
+    gap:26px;
+    padding:6px 22px;
+    font-size:clamp(18px,1.9vw,25px);
     cursor:pointer;
     text-align:left;
     color:#000;
@@ -70,9 +70,9 @@ body {
 .answer:last-child { border-bottom:0; }
 .answer:hover { background:rgba(255,255,255,.18); }
 .choice {
-    flex:0 0 47px;
-    width:47px;
-    height:47px;
+    flex:0 0 39px;
+    width:39px;
+    height:39px;
     border-radius:50%;
     background:#000;
     color:white;
@@ -87,7 +87,7 @@ body {
     box-shadow:0 0 0 3px white inset;
     font-size:0;
 }
-.answer.selected .choice::after { content:"✓"; font-size:23px; font-weight:700; }
+.answer.selected .choice::after { content:"✓"; font-size:20px; font-weight:700; }
 .next {
     width:41%;
     min-width:360px;
